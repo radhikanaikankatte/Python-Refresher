@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis
+  labels:
+    type: redis-type
+spec: 
+  containers:
+    - name: redis-ctr
+      image: redis123
+
